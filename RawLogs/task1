@@ -1,0 +1,4 @@
+1. Using opencart as cms for ecommerce domain
+2. Piwik is used; a web-analytics tool, which is used to collect the logs of the cms.
+3. The logs are picked up as JSON format
+4. JSON is converted to Avro(Apache Avro:a data serialization system)
