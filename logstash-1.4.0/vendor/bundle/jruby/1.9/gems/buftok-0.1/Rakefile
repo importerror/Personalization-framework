@@ -1,0 +1,31 @@
+require 'rake'
+require 'rake/rdoctask'
+require 'rake/gempackagetask'
+require 'spec/rake/spectask'
+
+Spec::Rake::SpecTask.new(:spec) do |task|
+    task.spec_files = FileList['**/*_spec.rb']
+end
+
+Rake::RDocTask.new(:rdoc) do |task|
+    task.rdoc_dir = 'doc'
+    task.title    = 'BufferedTokenizer'
+    task.rdoc_files.include('lib/**/*.rb')
+end
+
+spec = Gem::Specification.new do |s|
+  s.name = %q{buftok}
+  s.version = "0.1"
+  s.date = %q{2006-12-18}
+  s.summary = %q{BufferedTokenizer extracts token delimited entities from a sequence of arbitrary inputs}
+  s.email = %q{tony@clickcaster.com}
+  s.homepage = %q{http://buftok.rubyforge.org}
+  s.rubyforge_project = %q{buftok}
+  s.has_rdoc = true
+  s.authors = ["Tony Arcieri","Martin Emde"]
+  s.files = ["Rakefile", "lib", "lib/buftok.rb"]
+end
+
+Rake::GemPackageTask.new(spec) do |pkg|
+  pkg.need_tar = true
+end

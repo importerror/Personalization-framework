@@ -1,0 +1,28 @@
+before_install:
+  - echo "yes" | gem uninstall json
+script:
+  - bundle
+  - rake appraisal:install
+  - rake appraisal
+rvm:
+  - ree
+  - 1.8.7
+  - 1.9.2
+  - 1.9.3
+  - 2.0.0
+  - rbx-18mode
+  - rbx-19mode
+#  - jruby-18mode
+#  - jruby-19mode
+#  - jruby-head
+  - ruby-head
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head
+    - rvm: jruby-19mode
+    - rvm: rbx-19mode
+notifications:
+  email:
+    on_success: always
+    on_failure: always

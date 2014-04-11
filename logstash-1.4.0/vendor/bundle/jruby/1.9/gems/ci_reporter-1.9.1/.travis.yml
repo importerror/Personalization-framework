@@ -1,0 +1,9 @@
+rvm:
+  - 1.9.3
+  - 2.0.0
+  - jruby
+branches:
+  only:
+    - master
+before_install:
+  - ./.travis.before_install.sh
