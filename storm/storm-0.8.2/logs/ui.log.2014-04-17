@@ -1,0 +1,35 @@
+2014-04-17 05:12:33 log [INFO] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-17 05:12:33 log [INFO] jetty-6.1.26
+2014-04-17 05:12:33 log [INFO] Started SocketConnector@0.0.0.0:8080
+2014-04-17 05:12:40 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:12:48 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:12:49 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:12:51 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:12:51 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:15:44 log [INFO] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-17 05:15:44 log [INFO] jetty-6.1.26
+2014-04-17 05:15:44 log [WARN] failed SocketConnector@0.0.0.0:8080: java.net.BindException: Address already in use
+2014-04-17 05:15:44 log [WARN] failed Server@27278ce: java.net.BindException: Address already in use
+2014-04-17 05:15:49 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:17:37 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:17:39 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:17:40 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:17:46 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:17:47 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:18:00 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:18:17 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:18:18 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:18:58 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 05:32:40 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 13:12:07 log [INFO] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-17 13:12:07 log [INFO] jetty-6.1.26
+2014-04-17 13:12:07 log [INFO] Started SocketConnector@0.0.0.0:8080
+2014-04-17 13:16:03 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 13:49:45 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 13:49:49 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 13:49:50 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 14:00:52 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-17 18:51:14 log [INFO] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-17 18:51:14 log [INFO] jetty-6.1.26
+2014-04-17 18:51:14 log [INFO] Started SocketConnector@0.0.0.0:8080
+2014-04-17 18:51:23 thrift [INFO] Connecting to Nimbus at localhost:6627

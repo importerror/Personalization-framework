@@ -1,0 +1,18 @@
+2014-04-14 11:46:23 log [INFO] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-14 11:46:23 log [INFO] jetty-6.1.26
+2014-04-14 11:46:23 log [INFO] Started SocketConnector@0.0.0.0:8080
+2014-04-14 11:46:36 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:49:08 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:49:55 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:49:57 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:49:59 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:49:59 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:01 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:17 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:17 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:19 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:20 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:50:20 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:51:18 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:51:29 thrift [INFO] Connecting to Nimbus at localhost:6627
+2014-04-14 11:51:45 thrift [INFO] Connecting to Nimbus at localhost:6627
