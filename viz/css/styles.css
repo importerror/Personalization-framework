@@ -1,0 +1,46 @@
+html, * {
+    background-color: #040B14;
+    color: #19525C;
+}
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
+
+footer .left,
+footer .right {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+footer .left:hover,
+footer .right:hover {
+    background-color: #113133;
+}
+
+.boundary {
+  stroke: #B9121B;
+  stroke-linejoin: round;
+}
+
+footer, header {
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+}
