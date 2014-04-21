@@ -1,0 +1,682 @@
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:host.name=localhost.localdomain
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.version=1.7.0_51
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.home=/usr/java/jdk1.7.0_51/jre
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.class.path=/home/santosh/Cryus/storm-0.8.2/storm-0.8.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/curator-client-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-jetty-adapter-0.3.11.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-codec-1.4.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.cli-0.2.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/jetty-6.1.26.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.logging-0.2.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/snakeyaml-1.9.jar:/home/santosh/Cryus/storm-0.8.2/lib/kryo-2.17.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-servlet-0.3.11.jar:/home/santosh/Cryus/storm-0.8.2/lib/jetty-util-6.1.26.jar:/home/santosh/Cryus/storm-0.8.2/lib/asm-4.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/libthrift7-0.7.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/httpclient-4.1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/log4j-1.2.16.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.macro-0.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/clout-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/compojure-1.1.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-lang-2.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-exec-1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/core.incubator-0.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/joda-time-2.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-io-1.4.jar:/home/santosh/Cryus/storm-0.8.2/lib/jline-0.9.94.jar:/home/santosh/Cryus/storm-0.8.2/lib/httpcore-4.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/clojure-1.4.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/slf4j-log4j12-1.5.8.jar:/home/santosh/Cryus/storm-0.8.2/lib/hiccup-0.3.6.jar:/home/santosh/Cryus/storm-0.8.2/lib/servlet-api-2.5-20081211.jar:/home/santosh/Cryus/storm-0.8.2/lib/minlog-1.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/slf4j-api-1.5.8.jar:/home/santosh/Cryus/storm-0.8.2/lib/json-simple-1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/disruptor-2.10.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/jzmq-2.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-logging-1.1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/jgrapht-0.8.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/math.numeric-tower-0.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/guava-13.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/zookeeper-3.3.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/clj-time-0.4.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-fileupload-1.2.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/servlet-api-2.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/reflectasm-1.07-shaded.jar:/home/santosh/Cryus/storm-0.8.2/lib/curator-framework-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/junit-3.8.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/carbonite-1.5.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-core-1.1.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/objenesis-1.2.jar:/home/santosh/Cryus/storm-0.8.2/log4j:/home/santosh/Cryus/storm-0.8.2/conf
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:os.name=Linux
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:os.arch=amd64
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:os.version=3.13.9-100.fc19.x86_64
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:user.name=root
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:user.home=/root
+2014-04-19 11:29:54 ZooKeeper [INFO] Client environment:user.dir=/home/santosh/Cryus/storm-0.8.2/bin
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:host.name=localhost.localdomain
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.version=1.7.0_51
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.home=/usr/java/jdk1.7.0_51/jre
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.class.path=/home/santosh/Cryus/storm-0.8.2/storm-0.8.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/curator-client-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-jetty-adapter-0.3.11.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-codec-1.4.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.cli-0.2.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/jetty-6.1.26.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.logging-0.2.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/snakeyaml-1.9.jar:/home/santosh/Cryus/storm-0.8.2/lib/kryo-2.17.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-servlet-0.3.11.jar:/home/santosh/Cryus/storm-0.8.2/lib/jetty-util-6.1.26.jar:/home/santosh/Cryus/storm-0.8.2/lib/asm-4.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/libthrift7-0.7.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/httpclient-4.1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/log4j-1.2.16.jar:/home/santosh/Cryus/storm-0.8.2/lib/tools.macro-0.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/clout-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/compojure-1.1.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-lang-2.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-exec-1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/core.incubator-0.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/joda-time-2.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-io-1.4.jar:/home/santosh/Cryus/storm-0.8.2/lib/jline-0.9.94.jar:/home/santosh/Cryus/storm-0.8.2/lib/httpcore-4.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/clojure-1.4.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/slf4j-log4j12-1.5.8.jar:/home/santosh/Cryus/storm-0.8.2/lib/hiccup-0.3.6.jar:/home/santosh/Cryus/storm-0.8.2/lib/servlet-api-2.5-20081211.jar:/home/santosh/Cryus/storm-0.8.2/lib/minlog-1.2.jar:/home/santosh/Cryus/storm-0.8.2/lib/slf4j-api-1.5.8.jar:/home/santosh/Cryus/storm-0.8.2/lib/json-simple-1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/disruptor-2.10.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/jzmq-2.1.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-logging-1.1.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/jgrapht-0.8.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/math.numeric-tower-0.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/guava-13.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/zookeeper-3.3.3.jar:/home/santosh/Cryus/storm-0.8.2/lib/clj-time-0.4.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/commons-fileupload-1.2.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/servlet-api-2.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/reflectasm-1.07-shaded.jar:/home/santosh/Cryus/storm-0.8.2/lib/curator-framework-1.0.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/junit-3.8.1.jar:/home/santosh/Cryus/storm-0.8.2/lib/carbonite-1.5.0.jar:/home/santosh/Cryus/storm-0.8.2/lib/ring-core-1.1.5.jar:/home/santosh/Cryus/storm-0.8.2/lib/objenesis-1.2.jar:/home/santosh/Cryus/storm-0.8.2/log4j:/home/santosh/Cryus/storm-0.8.2/conf
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:os.name=Linux
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:os.version=3.13.9-100.fc19.x86_64
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:user.name=root
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:user.home=/root
+2014-04-19 11:29:54 ZooKeeperServer [INFO] Server environment:user.dir=/home/santosh/Cryus/storm-0.8.2/bin
+2014-04-19 11:29:54 nimbus [INFO] Starting Nimbus with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "nimbus.monitor.freq.secs" 10, "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/var/stormtmp", "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "supervisor.enable" true, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" 1, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.acker.tasks" nil, "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.optimize" true, "topology.max.task.parallelism" nil}
+2014-04-19 11:29:54 nimbus [INFO] Using default scheduler
+2014-04-19 11:29:54 CuratorFrameworkImpl [INFO] Starting
+2014-04-19 11:29:54 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=com.netflix.curator.ConnectionState@50780f54
+2014-04-19 11:29:54 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 11:29:54 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2014-04-19 11:29:54 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1457886161a0005, negotiated timeout = 20000
+2014-04-19 11:29:54 zookeeper [INFO] Zookeeper state update: :connected:none
+2014-04-19 11:29:55 ZooKeeper [INFO] Session: 0x1457886161a0005 closed
+2014-04-19 11:29:55 ClientCnxn [INFO] EventThread shut down
+2014-04-19 11:29:55 CuratorFrameworkImpl [INFO] Starting
+2014-04-19 11:29:55 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=com.netflix.curator.ConnectionState@6b6f2fc1
+2014-04-19 11:29:55 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 11:29:55 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2014-04-19 11:29:55 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1457886161a0006, negotiated timeout = 20000
+2014-04-19 11:29:55 nimbus [INFO] Starting Nimbus server...
+2014-04-19 11:33:26 nimbus [INFO] Uploading file from client to /var/stormtmp/nimbus/inbox/stormjar-46a2244e-5690-4717-a3f0-b2f12965af8d.jar
+2014-04-19 11:33:26 nimbus [INFO] Finished uploading file from client: /var/stormtmp/nimbus/inbox/stormjar-46a2244e-5690-4717-a3f0-b2f12965af8d.jar
+2014-04-19 11:33:26 nimbus [INFO] Received topology submission for exclamation-topology with conf {"topology.max.task.parallelism" nil, "topology.acker.executors" 1, "topology.kryo.register" nil, "topology.kryo.decorators" (), "topology.name" "exclamation-topology", "storm.id" "exclamation-topology-1-1397887406", "topology.workers" 3, "topology.debug" true}
+2014-04-19 11:33:27 nimbus [INFO] Activating exclamation-topology: exclamation-topology-1-1397887406
+2014-04-19 11:33:57 nimbus [INFO] Delaying event :remove for 1 secs for exclamation-topology-1-1397887406
+2014-04-19 11:33:57 nimbus [INFO] Updated exclamation-topology-1-1397887406 with status {:type :killed, :kill-time-secs 1}
+2014-04-19 11:33:58 nimbus [INFO] Killing topology: exclamation-topology-1-1397887406
+2014-04-19 11:34:06 nimbus [INFO] Cleaning up exclamation-topology-1-1397887406
+2014-04-19 13:52:46 ClientCnxn [INFO] Client session timed out, have not heard from server in 6788162ms for sessionid 0x1457886161a0006, closing socket connection and attempting reconnect
+2014-04-19 13:52:48 ConnectionStateManager [INFO] State change: SUSPENDED
+2014-04-19 13:52:48 ConnectionStateManager [WARN] There are no ConnectionStateListeners registered.
+2014-04-19 13:52:48 cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2014-04-19 13:52:49 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 13:52:49 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2014-04-19 13:52:49 ConnectionState [WARN] Session expired event received
+2014-04-19 13:52:49 ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x1457886161a0006 has expired, closing socket connection
+2014-04-19 13:52:49 ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=com.netflix.curator.ConnectionState@6b6f2fc1
+2014-04-19 13:52:49 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 13:52:50 ConnectionStateManager [INFO] State change: LOST
+2014-04-19 13:52:50 ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2014-04-19 13:52:50 ConnectionStateManager [WARN] There are no ConnectionStateListeners registered.
+2014-04-19 13:52:50 cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2014-04-19 13:52:50 ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1457886161a0009, negotiated timeout = 20000
+2014-04-19 13:52:50 ConnectionStateManager [INFO] State change: RECONNECTED
+2014-04-19 13:52:50 ConnectionStateManager [WARN] There are no ConnectionStateListeners registered.
+2014-04-19 13:52:50 nimbus [INFO] Cleaning inbox ... deleted: stormjar-46a2244e-5690-4717-a3f0-b2f12965af8d.jar
+2014-04-19 13:52:51 ClientCnxn [INFO] EventThread shut down
+2014-04-19 16:20:50 TNonblockingServer [ERROR] Unexpected exception while invoking!
+java.io.FileNotFoundException: File '/var/stormtmp/nimbus/stormdist/word-count-topology-1-1397810007/stormcode.ser' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:137)
+	at org.apache.commons.io.FileUtils.readFileToByteArray(FileUtils.java:1135)
+	at backtype.storm.daemon.nimbus$read_storm_topology.invoke(nimbus.clj:305)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto__$reify__3605.getTopologyInfo(nimbus.clj:1066)
+	at backtype.storm.generated.Nimbus$Processor$getTopologyInfo.getResult(Nimbus.java:1481)
+	at backtype.storm.generated.Nimbus$Processor$getTopologyInfo.getResult(Nimbus.java:1469)
+	at org.apache.thrift7.ProcessFunction.process(ProcessFunction.java:32)
+	at org.apache.thrift7.TBaseProcessor.process(TBaseProcessor.java:34)
+	at org.apache.thrift7.server.TNonblockingServer$FrameBuffer.invoke(TNonblockingServer.java:632)
+	at org.apache.thrift7.server.THsHaServer$Invocation.run(THsHaServer.java:201)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:33:51 ClientCnxn [INFO] Unable to read additional data from server sessionid 0x1457886161a0009, likely server has closed socket, closing socket connection and attempting reconnect
+2014-04-19 16:33:51 ConnectionStateManager [INFO] State change: SUSPENDED
+2014-04-19 16:33:51 ConnectionStateManager [WARN] There are no ConnectionStateListeners registered.
+2014-04-19 16:33:51 cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2014-04-19 16:33:53 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:33:53 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:33:54 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:33:54 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:33:55 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:33:55 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:33:57 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:33:57 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:33:58 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:33:58 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:00 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:00 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:00 CuratorFrameworkImpl [ERROR] Background operation retry gave up
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:90)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:380)
+	at com.netflix.curator.framework.imps.BackgroundSyncImpl$1.processResult(BackgroundSyncImpl.java:49)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:617)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:506)
+2014-04-19 16:34:00 ConnectionStateManager [INFO] State change: LOST
+2014-04-19 16:34:00 ConnectionStateManager [WARN] There are no ConnectionStateListeners registered.
+2014-04-19 16:34:01 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:01 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:03 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:03 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:04 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:04 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:05 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:05 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:06 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:06 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:09 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:09 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:10 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:10 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:12 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:12 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:12 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:34:13 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:13 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:15 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:15 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:16 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:16 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:18 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:18 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:20 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:20 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:22 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:22 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:23 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:23 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:24 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:24 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:26 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:26 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:27 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:27 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:28 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:34:29 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:29 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:31 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:31 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:32 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:32 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:34 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:34 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:35 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:35 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:37 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:37 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:39 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:39 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:41 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:41 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:42 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:42 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:44 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:44 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:44 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:34:45 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:45 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:47 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:47 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:49 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:49 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:50 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:50 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:52 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:52 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:54 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:54 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:55 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:55 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:57 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:57 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:34:58 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:34:58 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:00 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:00 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:00 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:35:01 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:01 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:02 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:02 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:04 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:04 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:05 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:05 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:07 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:07 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:08 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:08 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:10 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:10 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:12 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:12 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:14 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:14 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:16 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:16 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:16 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:35:18 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:18 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:19 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:19 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:21 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:21 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:22 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:22 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:24 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:24 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:25 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:25 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:26 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:26 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:28 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:28 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:30 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:30 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:31 ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181
+2014-04-19 16:35:31 ClientCnxn [WARN] Session 0x1457886161a0009 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-04-19 16:35:32 ConnectionState [ERROR] Connection timed out
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:35:32 nimbus [ERROR] Error when processing event
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at com.netflix.curator.ConnectionState.getZooKeeper(ConnectionState.java:72)
+	at com.netflix.curator.CuratorZookeeperClient.getZooKeeper(CuratorZookeeperClient.java:74)
+	at com.netflix.curator.framework.imps.CuratorFrameworkImpl.getZooKeeper(CuratorFrameworkImpl.java:353)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:184)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl$3.call(GetChildrenBuilderImpl.java:173)
+	at com.netflix.curator.RetryLoop.callWithRetry(RetryLoop.java:85)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:169)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:161)
+	at com.netflix.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:36)
+	at backtype.storm.zookeeper$get_children.invoke(zookeeper.clj:111)
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__1996.get_children(cluster.clj:86)
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2415.active_storms(cluster.clj:237)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:298)
+	at backtype.storm.daemon.nimbus$mk_assignments.doInvoke(nimbus.clj:634)
+	at clojure.lang.RestFn.invoke(RestFn.java:410)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598$fn__3599.invoke(nimbus.clj:872)
+	at backtype.storm.daemon.nimbus$fn__3592$exec_fn__1228__auto____3593$fn__3598.invoke(nimbus.clj:871)
+	at backtype.storm.timer$schedule_recurring$this__1776.invoke(timer.clj:69)
+	at backtype.storm.timer$mk_timer$fn__1759$fn__1760.invoke(timer.clj:33)
+	at backtype.storm.timer$mk_timer$fn__1759.invoke(timer.clj:26)
+	at clojure.lang.AFn.run(AFn.java:24)
+	at java.lang.Thread.run(Thread.java:744)
+2014-04-19 16:35:32 util [INFO] Halting process: ("Error when processing an event")
