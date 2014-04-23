@@ -24,7 +24,7 @@ var BubbleMap = function (options) {
             height = parseInt($(options.selection).css('height')) ||
                 screen.availHeight;
 
-        var SCALEFACTOR = width / screen.availWidth;
+        var SCALEFACTOR = height / screen.availHeight;
 
 
         //----- SVG holder
@@ -35,7 +35,7 @@ var BubbleMap = function (options) {
 
         //---- Map projection configuration
         var projection = d3.geo.mercator()
-            .scale(200 * SCALEFACTOR)
+            .scale(150 * SCALEFACTOR)
             .translate([width / 2, height / 2]);
 
         //---- Path generator

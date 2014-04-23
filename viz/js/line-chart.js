@@ -1,4 +1,7 @@
 var LineChart = function (options) {
+    // yellow from https://kuler.adobe.com/Nights-Thunder-color-theme-65854/
+    var YELLOW = '#FFBA0F';
+
     this.renderChart = function () {
 	d3.select('header').text('Visitor Count');
 
@@ -10,12 +13,20 @@ var LineChart = function (options) {
     function draw (dataset) {
         var width = (function () {
 	    var width = d3.select(options.selection).style('width');
-	    return width.substring(0, width.length - 2);
+	    return +width.substring(0, width.length - 2);
 	})();
         
-	height = screen.availHeight * 0.4; // 10%
+	//height = screen.availHeight * 0.4; // 40%
+	height = (function () {
+	    var height = d3.select(options.selection).style('height');
+	    return +height.substring(0, height.length - 2);
+	})();
+
+	height = height !== 0 ? height:  screen.availHeight * 0.4; // 40%
+
 	margin = 40;
 
+	d3.select(options.selection).html("");
 	var svg = d3.select(options.selection)
 	    .append('svg')
 	    .attr('width', width)
@@ -72,7 +83,7 @@ var LineChart = function (options) {
              .datum(dataset)
              .append("path")
              .attr("d", line)
-             .attr('stroke', 'white')
+             .attr('stroke', YELLOW)
              .attr('stroke-width', 2)
              .attr('fill', 'none');
     }

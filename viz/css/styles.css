@@ -19,9 +19,12 @@ header {
     position: fixed;
     top: 0px;
     left: 0px;
-
+    color: #BD8D46;
 }
 
+#viz-container {
+    margin-top: 2em;
+}
 footer .left,
 footer .right {
     float: left;
