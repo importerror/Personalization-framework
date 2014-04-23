@@ -1,4 +1,4 @@
-$(document).ready(function(e){
+window.addEventListener('load', function () {
     var bubbleMap = new BubbleMap({
 	dataFile: "data/data.json",
 	selection: "#bubble-map-container"
@@ -9,12 +9,7 @@ $(document).ready(function(e){
 	selection: "#line-chart-container"
     });
 
-	bubbleMap.renderChart();
-	lineChart.renderChart();
-    // $('footer div.left').on('click', function () {
-    // 	bubbleMap.renderChart();
-    // });
-    // $('footer div.right').on('click', function () {
-    // 	lineChart.renderChart();
-    // });
-});
+    bubbleMap.renderChart();
+    lineChart.renderChart();
+    
+}, false);
