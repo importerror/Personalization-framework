@@ -129,7 +129,6 @@ var HeatMap = function (options) {
 			return d.country;
 		    }).indexOf(d.id);
 		    if (i !== -1) {
-			console.log(rScale(dataset[i].customers));
 			return rScale(dataset[i].customers);
 		    } else {
 		    	return 1;
