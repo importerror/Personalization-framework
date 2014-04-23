@@ -1,5 +1,5 @@
 var BubbleMap = function (options) {
-    this.renderMap = function () {
+    this.renderChart = function () {
 
         d3.select('header').text('Geo Location');
 
@@ -20,14 +20,18 @@ var BubbleMap = function (options) {
             BUBBLESTROKE = '#F6E497',
             INITIALCOLOR = '#FCFAE1';
 
-        var width = parseInt($(options.selection).css('width')),
-            height = parseInt($(options.selection).css('height')) ||
-                screen.availHeight;
+	var width = (function () {
+	    var width = d3.select(options.selection).style('width');
+	    return +width.substring(0, width.length - 2);
+	})();
+        
+	var height = screen.availHeight * 0.5;
 
-        var SCALEFACTOR = width / screen.availWidth;
+        var SCALEFACTOR = height / screen.availHeight;
 
 
         //----- SVG holder
+	d3.select(options.selection).html("");
         var svg = d3.select(options.selection).append("svg")
             .attr("width", width)
             .attr("height", height);
