@@ -16,11 +16,11 @@ var LineChart = function (options) {
 	    return +width.substring(0, width.length - 2);
 	})();
         
-	//height = screen.availHeight * 0.4; // 40%
-	height = (function () {
-	    var height = d3.select(options.selection).style('height');
-	    return +height.substring(0, height.length - 2);
-	})();
+	height = screen.availHeight * 0.2; // 20%
+	// height = (function () {
+	//     var height = d3.select(options.selection).style('height');
+	//     return +height.substring(0, height.length - 2);
+	// })();
 
 	height = height !== 0 ? height:  screen.availHeight * 0.4; // 40%
 

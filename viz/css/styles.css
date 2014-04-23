@@ -34,10 +34,10 @@ footer .right {
     line-height: 2.5em;
 }
 
-footer .left:hover,
-footer .right:hover {
-    background-color: #113133;
-}
+/* footer .left:hover, */
+/* footer .right:hover { */
+/*     background-color: #113133; */
+/* } */
 
 .boundary {
   stroke: #B9121B;

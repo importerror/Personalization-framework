@@ -21,8 +21,8 @@ var BubbleMap = function (options) {
             INITIALCOLOR = '#FCFAE1';
 
         var width = parseInt($(options.selection).css('width')),
-            height = parseInt($(options.selection).css('height')) ||
-                screen.availHeight;
+            height = screen.availHeight * 0.5;//parseInt($(options.selection).css('height')) ||
+//                screen.availHeight;
 
         var SCALEFACTOR = height / screen.availHeight;
 
@@ -35,7 +35,8 @@ var BubbleMap = function (options) {
 
         //---- Map projection configuration
         var projection = d3.geo.mercator()
-            .scale(150 * SCALEFACTOR)
+            //.scale(150 * SCALEFACTOR)
+	.scale(200)
             .translate([width / 2, height / 2]);
 
         //---- Path generator
