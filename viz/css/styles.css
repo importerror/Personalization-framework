@@ -44,3 +44,23 @@ footer .right:hover {
 footer, header {
     font-family: 'Lato',Calibri,Arial,sans-serif;
 }
+
+
+g.pyk-line-chart-x-axis path {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+g.pyk-line-chart-y-axis path {
+    fill: none;
+}
+
+g.pyk-line-chart-y-axis g.tick line {
+  shape-rendering: crispEdges;
+  stroke: gray;
+}
+
+g.pyk-line-chart-y-axis g.tick text,
+g.pyk-line-chart-x-axis g.tick text {
+    fill: white;
+}

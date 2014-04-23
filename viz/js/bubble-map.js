@@ -1,5 +1,5 @@
 var BubbleMap = function (options) {
-    this.renderMap = function () {
+    this.renderChart = function () {
 
         d3.select('header').text('Geo Location');
 
@@ -28,6 +28,7 @@ var BubbleMap = function (options) {
 
 
         //----- SVG holder
+	d3.select(options.selection).html("");
         var svg = d3.select(options.selection).append("svg")
             .attr("width", width)
             .attr("height", height);
