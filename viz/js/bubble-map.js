@@ -35,8 +35,7 @@ var BubbleMap = function (options) {
 
         //---- Map projection configuration
         var projection = d3.geo.mercator()
-            //.scale(150 * SCALEFACTOR)
-	.scale(200)
+            .scale(200 * SCALEFACTOR)
             .translate([width / 2, height / 2]);
 
         //---- Path generator
