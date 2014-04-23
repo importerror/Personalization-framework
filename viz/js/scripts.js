@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
 	selection: "#line-chart-container"
     });
 
-  //  bubbleMap.renderChart();
-//    lineChart.renderChart();
+   bubbleMap.renderChart();
+   lineChart.renderChart();
     
 }, false);
