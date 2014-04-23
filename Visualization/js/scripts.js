@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
-    var bubbleMap = new BubbleMap({
+    var heatMap = new HeatMap({
 	dataFile: "data/heatmap-data.json",
-	selection: "#bubble-map-container"
+	selection: "#heat-map-container"
     });
 
     var lineChart = new LineChart ({
@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
 	selection: "#line-chart-container"
     });
 
-   bubbleMap.renderChart();
+   heatMap.renderChart();
    lineChart.renderChart();
     
 }, false);

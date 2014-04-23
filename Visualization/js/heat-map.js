@@ -1,4 +1,4 @@
-var BubbleMap = function (options) {
+var HeatMap = function (options) {
     this.renderChart = function () {
 
         d3.select('header').text('Geo Location');
