@@ -67,6 +67,7 @@ g.pyk-line-chart-y-axis g.tick line {
 g.pyk-line-chart-y-axis g.tick text,
 g.pyk-line-chart-x-axis g.tick text {
     fill: white;
+    font-size: 0.8em;
 }
 
 .loading-gif {
