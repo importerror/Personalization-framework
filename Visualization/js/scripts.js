@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
     var bubbleMap = new BubbleMap({
-	dataFile: "data/data.json",
+	dataFile: "data/heatmap-data.json",
 	selection: "#bubble-map-container"
     });
 
