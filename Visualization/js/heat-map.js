@@ -1,4 +1,4 @@
-var BubbleMap = function (options) {
+var HeatMap = function (options) {
     this.renderChart = function () {
 
         d3.select('header').text('Geo Location');
@@ -16,7 +16,7 @@ var BubbleMap = function (options) {
          */
         var BUBBLEFILL = '#BD8D46',
             RED = '#B9121B',
-            GDPCOLOR = '#4C1B1B',
+            GDPCOLOR = '#259C8A', //'#4C1B1B',
             BUBBLESTROKE = '#F6E497',
             INITIALCOLOR = '#FCFAE1';
 
@@ -50,9 +50,9 @@ var BubbleMap = function (options) {
         */
         var rScale = d3.scale.linear()
                 .domain(d3.extent(dataset.map(function (d) {
-                    return +d.gdp;
+                    return +d.customers;
                 })))
-                .range([1, 10]);
+                .range([0.6, 0.2]);
 
         //--- Reading TopoJSON file
         d3.json("data/world.json", function (error, world) {
@@ -122,18 +122,27 @@ var BubbleMap = function (options) {
                 .duration(1000)
                 .ease('bounce')
                 .attr('fill', function (d, i) {
-                        return GDPCOLOR;
+                    return GDPCOLOR;
                 })
-                .style('opacity', 1);
+                .style('opacity', function (d) {
+		    var i = dataset.map(function (d) {
+			return d.country;
+		    }).indexOf(d.id);
+		    if (i !== -1) {
+			return rScale(dataset[i].customers);
+		    } else {
+		    	return 1;
+		    }
+		});
 
-            bubbles.transition()
-            .delay(2000)
-            .duration(3000)
-            .ease('bounce')
-            .attr('r', function (d) {
-                // return rScale(+d.gdp); // After gdp is added to the geojson
-                return 5;
-            });
+            // bubbles.transition()
+            // .delay(2000)
+            // .duration(3000)
+            // .ease('bounce')
+            // .attr('r', function (d) {
+            //     // return rScale(+d.gdp); // After gdp is added to the geojson
+            //     return 5;
+            // });
         });
     }
 };
