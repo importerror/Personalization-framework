@@ -31,7 +31,7 @@ var BubbleMap = function (options) {
 
 
         //----- SVG holder
-	d3.select(options.selection).html("");
+//	d3.select(options.selection).html("");
         var svg = d3.select(options.selection).append("svg")
             .attr("width", width)
             .attr("height", height);

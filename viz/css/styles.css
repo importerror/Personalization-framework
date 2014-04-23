@@ -1,8 +1,9 @@
+/* Loaders from http://preloaders.net/ */
+
 html, * {
     background-color: #040B14;
     color: #19525C;
 }
-
 
 footer {
     width: 100%;
@@ -66,4 +67,9 @@ g.pyk-line-chart-y-axis g.tick line {
 g.pyk-line-chart-y-axis g.tick text,
 g.pyk-line-chart-x-axis g.tick text {
     fill: white;
+}
+
+.loading-gif {
+    display: block;
+    margin: auto;
 }
