@@ -1,0 +1,76 @@
+/* Loaders from http://preloaders.net/ */
+
+html, * {
+    background-color: #040B14;
+    color: #19525C;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: #BD8D46;
+}
+
+#viz-container {
+    margin-top: 2em;
+}
+footer .left,
+footer .right {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2.5em;
+}
+
+/* footer .left:hover, */
+/* footer .right:hover { */
+/*     background-color: #113133; */
+/* } */
+
+.boundary {
+  stroke: #B9121B;
+  stroke-linejoin: round;
+}
+
+footer, header {
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+}
+
+
+g.pyk-line-chart-x-axis path {
+    fill: none;
+    stroke: white;
+    shape-rendering: crispEdges;
+}
+g.pyk-line-chart-y-axis path {
+    fill: none;
+}
+
+g.pyk-line-chart-y-axis g.tick line {
+  shape-rendering: crispEdges;
+  stroke: gray;
+}
+
+g.pyk-line-chart-y-axis g.tick text,
+g.pyk-line-chart-x-axis g.tick text {
+    fill: white;
+    font-size: 0.8em;
+}
+
+.loading-gif {
+    display: block;
+    margin: auto;
+}
