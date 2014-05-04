@@ -1,6 +1,6 @@
 {
     "totalVisitorCount": 240,
     "newVisitorCount" : 1,
-    "interval": 60,
+    "interval": 1200,
     "countLimit": 100
 }
