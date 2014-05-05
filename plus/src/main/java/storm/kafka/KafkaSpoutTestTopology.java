@@ -76,7 +76,6 @@ public class KafkaSpoutTestTopology {
         hostsAndPartitions.addPartition(4, new HostPort("10.86.53.12", 9092));
 	BrokerHosts brokerHosts = new StaticHosts(hostsAndPartitions);
 	*/
-	
 	String zkhost = "localhost:2181";
 	BrokerHosts brokerHosts = new ZkHosts(zkhost);
    	SpoutConfig kafkaConf = new SpoutConfig(brokerHosts,"test", "/kafkastorm", "discovery");
@@ -86,9 +85,20 @@ public class KafkaSpoutTestTopology {
 	TopologyBuilder topology = new TopologyBuilder();
 	Config config = new Config();
 	config.put("kafka.consumer.timeout.ms", 40000);	
-	LocalCluster cluster = new LocalCluster();
+	config.put("kafka.spout.topic","test");
+	config.put("kafka.spout.consumer.group","test-consumer-group");
+	config.put("kafka.zookeeper.connect",zkhost);
 	topology.setSpout("kafka", kafkaSpout);
 	topology.setBolt("print", new PrinterBolt()).shuffleGrouping("kafka");
+	
+	 if(args!=null && args.length > 0) {
+      // submit to cluster
+      config.setNumWorkers(3);
+      StormSubmitter.submitTopology("my-topology", config, topology.createTopology());
+    } else {
+	
+	LocalCluster cluster = new LocalCluster();
 	cluster.submitTopology("my-topology", config, topology.createTopology());    
     }
+ }
 }
